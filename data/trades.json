@@ -455,8 +455,8 @@
       "strike": 285,
       "optionType": "CALL",
       "entry": 2.88,
-      "exit": 0.84,
-      "pnl": 204,
+      "exit": 0.6,
+      "pnl": 228.0,
       "commission": 1,
       "r": 0,
       "tags": [
@@ -464,8 +464,25 @@
         "covered-call",
         "income"
       ],
-      "notes": "Opened short covered call on AAPL 285C (3/20). Exit field reflects current mark for tracking; position still open.",
-      "status": "open"
+      "notes": "Covered call closed on 2026-03-02 at 0.60; realized pnl +228.00.",
+      "status": "closed",
+      "exitDate": "2026-03-02"
+    },
+    {
+      "id": "2026-03-02-mnqh6-0824-long-1",
+      "date": "2026-03-02",
+      "time": "08:24",
+      "symbol": "MNQH6",
+      "side": "Long",
+      "qty": 1,
+      "entry": 24929.5,
+      "exit": 24898.25,
+      "pnl": -62.5,
+      "commission": 1.0,
+      "setup": "pullback",
+      "strategy": "8EMA",
+      "status": "Closed",
+      "notes": "Entered before 10m close confirmation; SL hit"
     }
   ],
   "journal": [
@@ -581,16 +598,16 @@
     {
       "date": "2026-03-02",
       "title": "Trading Journal \u2014 Monday, March 2, 2026",
-      "mood": "Patient, process-first reset day",
-      "setupContext": "No executed setups; stood down from entries.",
-      "execution": "No orders executed. Preserved capital and avoided forcing trades in uncertain conditions.",
-      "psychology": "Maintained discipline by not taking low-conviction setups.",
-      "ruleAdherence": "Strong: respected selectivity and max-risk principle by staying flat.",
-      "whatWentWell": "Protected capital and avoided impulse trades.",
-      "whatToImprove": "Prepare a tighter premarket trigger checklist to reduce hesitation when A+ structure appears.",
-      "lessonLearned": "No-trade days are valid when edge is unclear; discipline includes choosing not to trade.",
-      "nextRule": "If setup is not A+ with confirmation, stay flat.",
-      "content": "Session summary: 0 executed trades logged for today. No structured fills found in trades[] and no same-day trade notes detected. Recovery context (Oura, previous night): Sleep 73, Readiness 74. Focus stayed on process review and capital preservation.",
+      "mood": "Disciplined under stress; one controlled loss",
+      "setupContext": "High-volatility, squeeze-prone session; took one long pullback based on 10m 8EMA/trendline confluence.",
+      "execution": "Executed 1 MNQ long (entry 24929.50, exit 24898.25) and closed 1 AAPL covered call (sold 2.88, bought back 0.60). Then stood down to avoid emotional overtrading.",
+      "psychology": "Handled stress from earlier AAPL execution confusion, accepted stop, and stopped trading to protect psychology.",
+      "ruleAdherence": "Good risk control (stop honored). Improvement needed: wait for 10m candle close confirmation before entry.",
+      "whatWentWell": "Accepted loss without revenge trading; preserved mental capital by stepping away.",
+      "whatToImprove": "No 10m-structure entries before candle close; pre-define invalidation and confirmation trigger.",
+      "lessonLearned": "A valid thesis entered early can still be a low-quality execution. Confirmation timing matters.",
+      "nextRule": "If trigger is based on 10m structure, wait for 10m candle close confirmation.",
+      "content": "Session summary: 2 executed trades logged for today. MNQH6 Long, qty 1, entry 24929.50, exit 24898.25, gross PnL -62.50, commission 1.00. AAPL 285C (2026-03-20) covered-call close, qty 1, sold 2.88 and bought back 0.60, gross PnL +228.00. Net gross across logged trades: +165.50. Post-trade behavior improved: no revenge trades; stepped away after stress spike. Recovery context (Oura, previous night): Sleep 73, Readiness 74.",
       "ouraSleepScore": 73,
       "ouraReadinessScore": 74
     }
