@@ -505,7 +505,22 @@
         "scalp"
       ],
       "notes": "buyFillId 400171094239 / sellFillId 400171094267 / duration 47sec",
-      "status": "closed"
+      "status": "closed",
+      "type": "journal",
+      "tradeCount": 10,
+      "wins": 8,
+      "losses": 2,
+      "breakeven": 0,
+      "netPnl": 134.5,
+      "symbols": {
+        "MNQH6": 10
+      },
+      "ouraSleepScore": null,
+      "ouraReadinessScore": null,
+      "content": "10 trades. PnL 134.50. Wins 8, Losses 2, Breakeven 0. Lessons: Respect stops; avoid holding losers. Oura recovery: Sleep N/A, Readiness N/A.",
+      "lessons": [
+        "Respect stops; avoid holding losers."
+      ]
     },
     {
       "id": "MAN-20260303-02",
