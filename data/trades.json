@@ -728,6 +728,21 @@
       ],
       "notes": "buyFillId 400171094580 / sellFillId 400171094612 / duration 39sec",
       "status": "closed"
+    },
+    {
+      "id": "manual-2026-03-04-bcd1fc75",
+      "date": "2026-03-04",
+      "symbol": "MNQ",
+      "side": "MIXED",
+      "entry": null,
+      "exit": null,
+      "qty": 1,
+      "pnl": -66.5,
+      "result": "LOSS",
+      "notes": "Manual post-session update from chat: day PnL -66.50, balance 24655.00. Includes non-system catch-knife entry note.",
+      "source": "manual-chat-update",
+      "balance": 24655.0,
+      "createdAt": "2026-03-04T21:35:29.981138+00:00"
     }
   ],
   "journal": [
@@ -884,7 +899,10 @@
         "discipline",
         "risk-management",
         "no-trade-day"
-      ]
+      ],
+      "pnl": -66.5,
+      "balance": 24655.0,
+      "notes": "Updated from chat: executed non-system catch-knife trade; recommitted to process consistency."
     }
   ]
 }

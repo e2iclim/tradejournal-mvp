@@ -1317,7 +1317,7 @@ function renderReportsHighlights(selector, snapshot) {
   const host = document.querySelector(selector);
   if (!host) return;
   const top3 = [...(snapshot.bySetup || [])].sort((a, b) => b.pnl - a.pnl).slice(0, 3);
-  const bottom3 = [...(snapshot.bySetup || [])].sort((a, b) => a.pnl - b.pnl).slice(0, 3);
+  const bottom4 = [...(snapshot.bySetup || [])].sort((a, b) => a.pnl - b.pnl).slice(0, 3);
   host.innerHTML = `
     <div class="panel">
       <div class="small muted" style="margin-bottom:6px;">Top 3 Setups</div>
