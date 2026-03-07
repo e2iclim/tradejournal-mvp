@@ -25,10 +25,3 @@ else db.entries.push(entry);
 db.generatedAt = new Date().toISOString();
 fs.writeFileSync(fp, JSON.stringify(db, null, 2));
 console.log(`upserted journal ${entry.date}`);
-try {
-  const { execFileSync } = require('child_process');
-  execFileSync('node', [path.resolve(__dirname, 'sync-journal-to-trades.js')], { stdio: 'inherit' });
-} catch (e) {
-  console.error('warning: journal sync failed', e?.message || e);
-}
-
