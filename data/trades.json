@@ -1,6 +1,6 @@
 {
   "source": "live-chat-manual-log",
-  "generatedAt": "2026-03-07T02:57:49.651Z",
+  "generatedAt": "2026-03-07T18:50:24.451Z",
   "trades": [
     {
       "id": "CSV-0070",
@@ -972,6 +972,46 @@
       "entry": 25000,
       "exit": 25010,
       "pnl": 20
+    },
+    {
+      "id": "MAN-TEST-001",
+      "date": "2026-03-10",
+      "symbol": "MNQ",
+      "side": "LONG",
+      "entry": 18240,
+      "stop": 18220,
+      "target": 18280,
+      "exit": 18275,
+      "qty": 2,
+      "pnl": 350,
+      "notes": "test upsert"
+    },
+    {
+      "id": "MAN-TEST-002",
+      "date": "2026-03-07",
+      "symbol": "MNQ",
+      "side": "LONG",
+      "entry": 18250,
+      "stop": 18235,
+      "target": 18300,
+      "exit": 18290,
+      "qty": 2,
+      "pnl": 160,
+      "notes": "edited from chat"
+    },
+    {
+      "id": "MAN-TEST-003",
+      "date": "2026-03-07",
+      "symbol": "MNQ",
+      "side": "LONG",
+      "entry": 18260,
+      "stop": 18245,
+      "target": 18300,
+      "exit": 18310,
+      "qty": 2,
+      "pnl": 220,
+      "notes": "tp hit",
+      "status": "CLOSED"
     }
   ],
   "journal": [
