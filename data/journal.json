@@ -1,6 +1,6 @@
 {
   "source": "canonical",
-  "generatedAt": "2026-03-09T20:17:09.559Z",
+  "generatedAt": "2026-03-09T20:20:49.049Z",
   "entries": [
     {
       "date": "2026-03-05",
@@ -217,6 +217,10 @@
     {
       "date": "2026-03-09",
       "summary": "Imported 17 MNQ trades from Performance_6 CSV. Win rate 70.59% (12W/5L), net PnL -24.0, PF 0.91. Early scalps strong, later drawdown from larger losers (-64.5, -63.0, -62.0) erased edge. Focus: cap downside and stop after momentum fade."
+    },
+    {
+      "date": "2026-03-08",
+      "summary": "Imported 11 MNQ trades from Performance_7 CSV. Win rate 90.91% (10W/1L), net PnL +18.5, PF 1.28. One outsized loser (-65.5) was the key drag; otherwise consistent small scalps."
     }
   ]
 }
