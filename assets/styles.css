@@ -90,10 +90,11 @@ input, select, textarea {
 table { width: 100%; border-collapse: collapse; min-width: 860px; }
 th, td { padding: 9px 8px; border-bottom: 1px solid var(--line); font-size: 0.9rem; }
 th { color: var(--muted); font-weight: 600; text-align: left; white-space: nowrap; }
+/* Disable sticky table headers globally to prevent overlap over first data row on dashboard tables. */
 .table-wrap thead th {
-  position: sticky;
-  top: var(--table-sticky-offset);
-  z-index: 6;
+  position: static;
+  top: auto;
+  z-index: 1;
   background: var(--panel);
 }
 tr[data-id]:hover { background: var(--panel-soft); }
