@@ -2557,6 +2557,22 @@
   ],
   "journal": [
     {
+      "date": "2026-03-10",
+      "title": "Trading Journal \u2014 Tuesday, March 10, 2026",
+      "mood": "Clear self-awareness after execution drift; finished with shutdown discipline and reset mindset.",
+      "content": "Session summary: 33 trades logged. Gross PnL -107.00, commissions 33.00, net PnL -140.00. Win/Loss/BE = 21/11/1 (Winrate 63.6%). Best trade: CSV-20260310-432293461047-432293461019 (MNQH6) 89.50 net. Worst trade: CSV-20260310-400171097090-400171097098 (MNQH6) -130.00 net.",
+      "setupContext": "Two account cycles were active (v1 reset flow + v2 prop flow). Early session showed impulse entries and rapid re-entries before setups fully confirmed.",
+      "execution": "Main leak was premature entries and giving losers too much room while protecting winners too early. End-of-day behavior improved: explicit shutdown decision and process-first reset.",
+      "psychology": "Key realization: fear of giving back profit drove premature exits; urgency/FOMO drove early entries. Strong positive: named the pattern in real time and committed to rule-based correction.",
+      "ruleAdherence": "Mixed. Risk controls were present but setup-completion discipline was inconsistent early; adherence improved after defining hard rules and stopping for the day.",
+      "whatWentWell": "1) Honest diagnosis of execution leak. 2) Logged and reconciled both v1/v2 trades into MVP. 3) Shut down instead of forcing late recovery. 4) Committed to explicit anti-impulse SOP.",
+      "whatToImprove": "1) No entry before 100% setup completion. 2) Mandatory 3-minute wait when urgency appears. 3) Mandatory 3-minute reset after stop-out before any re-entry. 4) Hold winners to plan unless invalidated.",
+      "lessonLearned": "I trade setups, not candles. Protecting process beats protecting floating PnL.",
+      "nextRule": "No 100% setup = no trade. If urgency appears, wait 3 minutes. After stop-out on same idea, 3-minute reset before re-entry review. Max 3 trades/day.",
+      "ouraSleepScore": null,
+      "ouraReadinessScore": null
+    },
+    {
       "date": "2026-02-18",
       "title": "Trading Journal \u2014 Wednesday, February 18, 2026",
       "mood": "Process-focused.",
