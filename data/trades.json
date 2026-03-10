@@ -1253,15 +1253,19 @@
       "qty": 1,
       "stop": 1.85,
       "target": 3.8,
-      "notes": "FL0WG0D alert follow: 1x STM 33C 2026-05-15 filled 2.85",
+      "notes": "FL0WG0D alert follow: 1x STM 33C 2026-05-15 filled 2.85 Closed 2026-03-10 at 3.30.",
       "assetType": "options",
       "underlying": "STM",
       "expiry": "2026-05-15",
       "strike": 33,
       "optionType": "CALL",
       "contracts": 1,
-      "status": "open",
-      "setup": "FL0WG0D follow"
+      "status": "closed",
+      "setup": "FL0WG0D follow",
+      "exit": 3.3,
+      "exitDate": "2026-03-10",
+      "pnl": 45.0,
+      "commission": 1
     },
     {
       "id": "CSV-20260309-400171096226",
