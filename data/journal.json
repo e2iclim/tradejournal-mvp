@@ -269,6 +269,22 @@
       "nextTradeRule": "If the trade is not working, cut it faster instead of hoping. If the trade is working, let it work until the rule says exit \u2014 not fear. No more waiting for the hot stove to cool down. Take the hand off. Good trades get time. Bad trades lose time.",
       "ouraSleepScore": null,
       "ouraReadinessScore": null
+    },
+    {
+      "date": "2026-03-13",
+      "title": "Trading Journal \u2014 Friday, March 13, 2026",
+      "mood": "Emotionally messy session. Started with too much re-engagement and never really got fully back under control. The day felt less like structured trading and more like getting pulled back into the arena repeatedly.",
+      "content": "Session summary: Red day driven by severe overtrading and breakdown of discipline. The edge was still there, but it was buried under too many trades. Biggest takeaway: this session was lost more through behavior than through market conditions.",
+      "setupContext": "Primary instrument: MNQ. There were real opportunities and some good trades on the board. The issue was not lack of setups. The issue was excessive re-entry, overexposure, and breakdown of session discipline.",
+      "execution": "There were meaningful winners throughout the day, including several larger wins. This proves the edge was present. The problem was not trade quality alone, but trade quantity. Too many repeated decisions degraded execution and turned the session into noise.",
+      "psychology": "This became a self-control day more than a skill day. The need to keep trading overpowered the need to protect the day. Once the session got extended too far, discipline degraded and the market stopped being the main problem.",
+      "ruleAdherence": "Poor overall. The biggest violation was the total number of trades. A day with a hard max of 3 trades turned into 55 trades. At that point, the session moved far outside the intended operating framework.",
+      "whatIDidGood": "Still showed the ability to capture real upside. Produced multiple meaningful winners, including a +103 trade. Proved that when execution is aligned, the edge is still there.",
+      "whatToImprove": "Stop after the planned trade limit. Eliminate repeated low-value re-engagements. Protect the session from turning into a marathon of emotional decision-making. Tighten loss control and reduce exposure after early damage.",
+      "lessonLearned": "This was not mainly a market problem. It was a discipline and overtrading problem. I do not need more setups. I need fewer decisions and stronger stop rules around session limits. Repaired stats: 55 trades, gross $-206.50, net after $1/trade commissions $-261.50, win rate 56.4%, avg win $22.58, avg loss $-39.41, profit factor 0.77.",
+      "nextTradeRule": "Maximum 3 trades per day means maximum 3 trades per day. After the limit is hit, platform closed, no exceptions. No more trying to trade out of prior mistakes. Protect the day before trying to improve the day.",
+      "ouraSleepScore": null,
+      "ouraReadinessScore": null
     }
   ]
 }
