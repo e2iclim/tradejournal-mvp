@@ -1,7 +1,23 @@
 {
   "source": "canonical",
-  "generatedAt": "2026-03-10T21:22:07Z",
+  "generatedAt": "2026-03-12T05:14:12.080Z",
   "entries": [
+    {
+      "date": "2026-03-11",
+      "title": "Trading Journal \u2014 Wednesday, March 11, 2026",
+      "mood": "Started focused but emotionally reactive around entries/exits. Mid-session got calmer and more process-driven. Ended with better control and less urgency/FOMO.",
+      "content": "Session summary: Red day with clear process lessons. Net P&L after $1/trade commissions was $-131.00 on 21 trades. Win rate was 66.7% (14W / 7L). Biggest issue remained loss size versus average win, even though execution improved later in the session.",
+      "setupContext": "Primary instrument: MNQ. Traded mostly long setups around reclaim/retest structure. Conditions were often choppy around key zones with multiple fake reclaim attempts. Several FL0WG0D flow signals were reviewed, but execution still depended on chart confirmation.",
+      "execution": "Early session had multiple full-stop losses hit quickly. Mid/late session execution improved materially: waited for confirmations more often, cut weak trades early, and avoided forcing in dead zones/chop. Key proactive risk action: cut a weakening setup early for tiny damage/profit instead of letting full SL hit.",
+      "psychology": "Main challenge was the urge to enter early for a better price and the urge to take profit too early. Big improvement: recognized and interrupted revenge-trade impulses. Strong anchor used repeatedly: \u201cMissing is free, forcing is expensive.\u201d",
+      "ruleAdherence": "Improved adherence as the session progressed. Confirmation/retest logic was followed more consistently later, but there were still early-session violations through lower-quality and less-confirmed entries.",
+      "whatIDidGood": "Avoided multiple low-quality entries by waiting for one more confirmation. Protected capital with early exits when reclaim thesis weakened. Reduced emotional overtrading in the second half. Stayed coachable and adjusted behavior in real time.",
+      "whatToImprove": "First 60\u201390 minutes: tighten filters to avoid large initial losses. Keep loss size tighter when setup does not confirm quickly. Maintain better payoff symmetry so average loss is not several times larger than average win. Continue avoiding dead-zone trades and chop participation.",
+      "lessonLearned": "High win rate alone does not fix poor payoff structure. The repaired trade log shows 21 trades, gross P&L $-110.00, avg win $14.50, avg loss $-44.71, and profit factor 0.65. The next level is smaller losers, not more accuracy.",
+      "nextTradeRule": "No confirmation, no trade. If reclaim setup does not hold quickly, cut early with no hope-holding. Keep repeating: Missing is free. Forcing is expensive. During chop-box conditions: stand down until break + retest hold.",
+      "ouraSleepScore": null,
+      "ouraReadinessScore": null
+    },
     {
       "date": "2026-03-10",
       "title": "Trading Journal \u2014 Tuesday, March 10, 2026",
