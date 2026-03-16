@@ -1,6 +1,6 @@
 {
   "source": "canonical",
-  "generatedAt": "2026-03-16T02:10:22.908Z",
+  "generatedAt": "2026-03-16T19:34:37.605Z",
   "entries": [
     {
       "date": "2026-02-18",
@@ -299,6 +299,20 @@
       "whatToImprove": "Wait for real separation from chop. A small upward curl is not enough. Need reclaim plus follow-through before committing.",
       "lessonLearned": "Confirmation = reclaim + follow-through, not just curling. Wait for price to prove it can lift out of the mess before entering.",
       "nextTradeRule": "Do not enter on the first hint of curl from support. Wait for reclaim + follow-through above the nearby micro high, then enter."
+    },
+    {
+      "date": "2026-03-16",
+      "title": "Trading Journal — Monday, March 16, 2026",
+      "mood": "6/10",
+      "content": "Session ended green at +$53.50 across 10 MNQ trades. The money result was positive, but the bigger takeaway was process: trade less, protect mental capital, and exit when setup weakness shows up instead of hoping.",
+      "setupContext": "Several valid-looking setups appeared, but not all stayed healthy after entry. The recurring issue was staying too active and taking too many trades rather than waiting for the clearest A+ opportunities.",
+      "execution": "Took 10 trades on MNQ. Net result +$53.50 with 7 wins, 2 losses, and 1 flat. Biggest loss was -$62.50 early, followed by a strong recovery trade of +$54.50 and another good trade of +$46.00. After that, the session drifted into smaller, lower-value trades.",
+      "psychology": "Better recognition of weakening price action and invalidation. Instead of freezing, there was more willingness to exit when the setup started to weaken. That protected both mental state and capital.",
+      "ruleAdherence": "Mixed. Positive improvement in cutting invalidating trades, but overtrading remained the main process violation. Max-3-trades rule was broken.",
+      "whatIDidGood": "Recovered after the early loss, recognized setup weakness faster, and got out to protect capital instead of waiting for bigger damage.",
+      "whatToImprove": "Trade less. Be more selective. Stop churning after a good recovery. Protect mental capital the same way capital is protected.",
+      "lessonLearned": "Need to trade less and get out when weakness shows up to protect both mental capital and account capital.",
+      "nextTradeRule": "If a setup starts invalidating or showing weakness, exit early. Fewer trades, higher quality, better preservation of mental capital."
     }
   ]
 }
