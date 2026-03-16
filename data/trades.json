@@ -1,6 +1,6 @@
 {
   "source": "live-chat-manual-log",
-  "generatedAt": "2026-03-12T05:14:25.966Z",
+  "generatedAt": "2026-03-16T02:10:10.973Z",
   "trades": [
     {
       "id": "CSV-0070",
@@ -4695,6 +4695,28 @@
       "source": "performance_csv",
       "sourceBuyFillId": "432293465354",
       "sourceSellFillId": "432293465386"
+    },
+    {
+      "id": "MAN-20260315-01",
+      "date": "2026-03-15",
+      "entryTime": "17:34",
+      "symbol": "MNQH6",
+      "assetType": "futures",
+      "side": "LONG",
+      "setup": "2x BOS + HL + Doji",
+      "strategy": "BOS pullback confirmation",
+      "qty": 1,
+      "entry": 24497.5,
+      "exit": 24505,
+      "pnl": 15,
+      "commission": 1,
+      "status": "closed",
+      "source": "manual-chat-update",
+      "buyFillId": 432293465404,
+      "sellFillId": 432293465442,
+      "boughtTimestamp": "03/15/2026 17:34:58",
+      "soldTimestamp": "03/15/2026 17:39:58",
+      "notes": "Entered after zone hold/curl but before full reclaim confirmation. Exited green at 24505 for +$15 after recognizing entry was early and chop-prone."
     }
   ],
   "journal": [
@@ -5017,9 +5039,25 @@
       "nextRule": "Maximum 3 trades per day means maximum 3 trades per day. After the limit is hit, platform closed, no exceptions. No more trying to trade out of prior mistakes. Protect the day before trying to improve the day.",
       "ouraSleepScore": null,
       "ouraReadinessScore": null
+    },
+    {
+      "date": "2026-03-15",
+      "title": "Trading Journal — Sunday, March 15, 2026",
+      "mood": "7/10",
+      "content": "Session summary: Logged MNQ trade from today. Small green outcome, but the main value was the lesson on waiting for reclaim + follow-through instead of entering on the first curl out of chop.",
+      "setupContext": "Watched 5m/1m BOS-based long structure on MNQ. The setup idea was valid directionally, but the first entry came before clean confirmation out of chop.",
+      "execution": "Entered long 24497.50 and exited 24505.00 for +$15. Trade was green, but entry quality was early. The cleaner confirmation would have been reclaim + follow-through above the nearby micro highs, not just curling upward from support.",
+      "psychology": "Good recovery. Stayed honest about the early entry instead of rationalizing it. Took the better exit and used the trade as feedback instead of forcing a bigger outcome.",
+      "ruleAdherence": "Mixed but improving. The entry was early relative to the full setup rule, but the exit discipline and post-trade review were solid.",
+      "whatWentWell": "Recognized the setup logic was not random, accepted that confirmation was still incomplete, exited cleanly, and learned from the difference between a curl and a true reclaim.",
+      "whatToImprove": "Wait for real separation from chop. A small upward curl is not enough. Need reclaim plus follow-through before committing.",
+      "lessonLearned": "Confirmation = reclaim + follow-through, not just curling. Wait for price to prove it can lift out of the mess before entering.",
+      "nextRule": "Do not enter on the first hint of curl from support. Wait for reclaim + follow-through above the nearby micro high, then enter.",
+      "ouraSleepScore": null,
+      "ouraReadinessScore": null
     }
   ],
-  "updatedAt": "2026-03-13T23:48:54.532Z",
+  "updatedAt": "2026-03-16T02:10:22.950Z",
   "currentAccountCycle": "LUCID-funded-v2",
   "previousAccountCycle": "LUCID-funded-v1",
   "accountResetDate": "2026-03-10"
