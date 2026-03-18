@@ -2221,7 +2221,7 @@
     }
   ],
   "updatedAt": "2026-03-17T20:41:14.237Z",
-  "currentAccountCycle": "LUCID-funded-v2",
-  "previousAccountCycle": "LUCID-funded-v1",
-  "accountResetDate": "2026-03-10"
+  "currentAccountCycle": "default",
+  "previousAccountCycle": "legacy",
+  "accountResetDate": ""
 }
