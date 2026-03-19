@@ -1,6 +1,6 @@
 {
   "source": "canonical",
-  "generatedAt": "2026-03-17T20:41:14.195Z",
+  "generatedAt": "2026-03-19T20:12:17.830Z",
   "entries": [
     {
       "date": "2026-02-18",
@@ -329,6 +329,22 @@
       "nextTradeRule": "Do not enter when price merely reaches the area—enter only when price proves it can hold the area. If the trade is not working, exit and move on. ORB high is context, not command. A valid pattern inside a bad zone is still a bad trade.",
       "ouraSleepScore": 70,
       "ouraReadinessScore": 78
+    },
+    {
+      "date": "2026-03-19",
+      "title": "Trading Journal — Thursday, March 19, 2026",
+      "mood": "7/10",
+      "content": "Session summary: 20 MNQ trades logged. Gross PnL was +80.50 and net after $1/trade commissions was +60.50. The day finished green, but the bigger story was psychological: I became more aware that multiple inner voices show up during execution, and my job is to give authority to the truth-trader voice instead of the emotional ones.",
+      "setupContext": "There was real opportunity in the tape, but also a lot of churn. Several setups were structurally valid, yet many required fast management because they were not premium A+ spots. I also recognized that some exits came from legitimate candle weakness and failed continuation, while other exits came from discomfort getting loud rather than the market disproving the thesis.",
+      "execution": "The raw result was solid, but 20 trades is still too many to call clean. Some exits were disciplined: I expected continuation, continuation failed, weakness appeared, and I sold. Other moments showed the old pattern: I exited or re-entered because emotional discomfort or FOMO got authority. The day reinforced that I can read price reasonably well, but I still create too many situations that require delicate management.",
+      "psychology": "The major breakthrough was seeing more clearly that there are many versions of me in a trade: fear self, hope self, FOMO self, revenge self, and truth trader. The emotional side wants safety in green and hope in red. Those feelings are not going away, and that is normal. The goal is not to silence every voice; the goal is to know which voice gets authority. I also saw that some of my high trade count came from trying to train myself to stay in green without panicking.",
+      "ruleAdherence": "Mixed. I stayed engaged and ended green, but the frequency was too high. The positive side is that I was not blindly suffocating every winner; some exits were based on valid weakening candles. The weaker side is that I still let FOMO self disguise itself as a true setup after getting out of trades, and I still took more reps than a calm, selective session really required.",
+      "whatIDidGood": "Finished green without a blowup. Noticed multiple inner voices in real time. Distinguished fear-based exits from thesis-invalidated exits more clearly. Pulled out strong psychological rules during the session. Recognized that emotions in trading are normal and that the real skill is authority, not elimination.",
+      "whatToImprove": "Trade less. Be more selective so I am not constantly forced into rapid management decisions. After exiting, ask whether the next setup is independently valid or emotionally sponsored by the last trade. Keep watching whether I am using trade quantity as exposure therapy in a way that quietly turns into overtrading.",
+      "lessonLearned": "I do not need to silence every voice. I need to know which voice gets authority. My job in green is not to protect feeling; my job is to read whether the trade is still valid. If I exit, I need to ask whether the market disproved me or whether discomfort simply got loud.",
+      "nextTradeRule": "If a setup is valid, manage it based on whether the thesis is still valid — not whether PnL discomfort wants safety. After an exit, the next trade must stand on its own and not be emotionally sponsored by the previous trade. Fewer trades, higher quality, more authority given to truth trader.",
+      "ouraSleepScore": 86,
+      "ouraReadinessScore": 90
     }
   ]
 }
