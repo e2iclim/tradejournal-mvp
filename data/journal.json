@@ -1,6 +1,6 @@
 {
   "source": "canonical",
-  "generatedAt": "2026-03-25T23:00:48.080162",
+  "generatedAt": "2026-03-26T14:30:28.712524",
   "entries": [
     {
       "date": "2026-02-18",
@@ -407,6 +407,23 @@
       "lessonLearned": "A good entry is useless if fear manages the trade. The biggest leak today was not market read; it was giving authority to the emotional side. Fear made me both react badly after a larger first loss and suffocate winners early just to reduce emotional pressure.",
       "nextTradeRule": "Before every trade: define entry, stop, target, and setup reason. If the stop is wider, size is smaller. After any meaningful first loss, pause before the next trade. Once in a trade, P&L is not the authority \u2014 structure is. I am not allowed to exit early just because I want to protect small green.",
       "summary": "Small green, bad process. Overtrading and fear-based management turned a day with some valid entries into a repair-mode session. The correct focus is not the positive P&L; it is restoring logic-side authority over stops, targets, and trade management.",
+      "ouraSleepScore": "",
+      "ouraReadinessScore": ""
+    },
+    {
+      "date": "2026-03-26",
+      "title": "Trading Journal \u2014 Thursday, March 26, 2026",
+      "mood": "Frustrated and heavy. The session felt like a fight against the tape and then a fight against P&L emotions, but the core lesson is much clearer now.",
+      "content": "Session summary: 30 MNQ trades logged. Gross PnL was -226.00 and net after $1/trade commissions was -256.00. Win rate was 60.0% (18W / 12L), but the number of trades and the loss distribution show a process breakdown rather than a simple bad read day.",
+      "setupContext": "The dominant context was a downtrend day, but I kept taking longs for recovery. The entries themselves were often not random \u2014 I waited for consolidation, reversal doji behavior, and an extra 5-minute candle for confirmation. The bigger mistake was treating those countertrend longs as if they deserved trend-style management in a market that still wanted lower.",
+      "execution": "Execution broke down in two layers. First, several early and mid-session longs were decent local entries but only produced short pumps before failing with the downtrend. Second, once PnL emotions took over, I started repair trading and overtrading. That turned the session into repeated attempts to make back losses instead of adapting to the market. The late-session bleed shows that the real damage came from continuing to engage after the day had already proven difficult.",
+      "psychology": "I did tilt and overtrade because of PnL emotions. I also kept fighting the dominant downtrend by buying recovery longs. There was another layer too: when candles started weakening after a trade moved in my favor, I questioned whether that read was real information or just emotional fear trying to get me out too early. That confusion made me hold some trades longer than I should have, let them round-trip, and then emotionally react afterward. I even meditated for 15 minutes to calm down, which was useful, but calm cannot overpower a dominant trend. A reset helps me see more clearly, but it does not make countertrend trades stronger than the market structure.",
+      "ruleAdherence": "Poor. The max-trades discipline was broken badly with 30 trades. The session also violated directional discipline by repeatedly taking countertrend longs on a clear downtrend day. Positive note: I did eventually step away and reset instead of letting the day spiral further.",
+      "whatIDidGood": "1) I waited for actual local structure on many entries instead of completely random clicking. 2) I was honest enough to admit that the real issue was fighting trend and then trying to repair PnL. 3) I used meditation/reset instead of pure emotional escalation, which helped me see the correct lesson more clearly.",
+      "whatToImprove": "1) Respect dominant trend sooner. 2) Stop treating countertrend longs like they deserve trend-trade management. 3) Stop trying to repair the day through more activity. 4) Use weakening candles and failed follow-through as information instead of getting trapped in a mid-trade argument about whether it is fear or logic.",
+      "lessonLearned": "On dominant trend days, I either trade with trend or I scalp the countertrend bounce. I do not hold countertrend trades like they are full reversals. Emotional reset is useful, but it does not override trend reality.",
+      "nextTradeRule": "Trend or scalp. Not hope. If the day is clearly downtrending, my default is short bias. If I take a countertrend long, it is scalp-only with faster profit-taking and lower expectations. If I catch myself trying to make back losses, I stop trading instead of increasing activity.",
+      "summary": "Today was a mix of decent local entries, poor directional context, and real tilt after PnL pressure built up. The right correction is simple: follow the dominant trend, or treat countertrend setups as quick scalps only.",
       "ouraSleepScore": "",
       "ouraReadinessScore": ""
     }
