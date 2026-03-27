@@ -1,7 +1,7 @@
 {
-  "label": "default",
-  "startDate": "",
+  "label": "prop-reset-2026-03-27",
+  "startDate": "2026-03-27",
   "startBalance": 0,
-  "resetAt": "",
-  "notes": "Account reset metadata cleared after Lucid v1/v2 cleanup"
+  "resetAt": "2026-03-27T11:56:59.081903",
+  "notes": "Prop firm account busted; active equity curve reset while preserving prior-cycle trade history and journals."
 }

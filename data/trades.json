@@ -29,7 +29,8 @@
       ],
       "notes": "Covered call closed on 2026-03-02 at 0.60; realized pnl +228.00.",
       "status": "closed",
-      "exitDate": "2026-03-02"
+      "exitDate": "2026-03-02",
+      "accountCycle": "default"
     },
     {
       "id": "OPT-STM-20260309-1",
@@ -52,7 +53,8 @@
       "exit": 3.3,
       "exitDate": "2026-03-10",
       "pnl": 45,
-      "commission": 1
+      "commission": 1,
+      "accountCycle": "default"
     },
     {
       "id": "PERF-20260319-001",
@@ -2733,8 +2735,8 @@
       "ouraReadinessScore": null
     }
   ],
-  "updatedAt": "2026-03-26T14:30:28.712516",
-  "currentAccountCycle": "default",
-  "previousAccountCycle": "legacy",
-  "accountResetDate": ""
+  "updatedAt": "2026-03-27T11:56:59.079511",
+  "currentAccountCycle": "prop-reset-2026-03-27",
+  "previousAccountCycle": "default",
+  "accountResetDate": "2026-03-27"
 }
