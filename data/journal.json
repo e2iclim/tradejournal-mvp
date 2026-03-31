@@ -1,6 +1,6 @@
 {
   "source": "canonical",
-  "generatedAt": "2026-03-26T14:30:28.712524",
+  "generatedAt": "2026-03-31T03:08:00Z",
   "entries": [
     {
       "date": "2026-02-18",
@@ -426,6 +426,23 @@
       "summary": "Today was a mix of decent local entries, poor directional context, and real tilt after PnL pressure built up. The right correction is simple: follow the dominant trend, or treat countertrend setups as quick scalps only.",
       "ouraSleepScore": "",
       "ouraReadinessScore": ""
+    },
+    {
+      "date": "2026-03-30",
+      "title": "Trading Journal \u2014 Monday, March 30, 2026",
+      "mood": "Emotionally pressured early, then noticeably steadier once the session stopped spiraling and a cleaner recovery sequence appeared.",
+      "content": "Session summary: 8 trades logged. Gross PnL -32.00, commissions 8.00, net PnL -40.00. Win/Loss/BE = 3/5/0 (Win rate 37.5%). Best trade: PERF-20260330-007 (MNQM6) 97.00. Worst trade: PERF-20260330-004 (MNQM6) -80.00.",
+      "setupContext": "Only the CSV was provided, so chart structure is inferred from timing and trade flow. The day started with four straight losing longs, including a size-up loss, then shifted into a meaningful recovery burst with three green trades before ending with one more loser.",
+      "execution": "Execution quality split into two phases. Phase one was poor: repeated long attempts failed quickly and trade count escalated while the read was not working. Phase two was much better: the 2-lot bounce winner and the two later winners showed that when timing improved, the session could recover materially. Still, the early damage and overall decision count kept the day red after commissions.",
+      "psychology": "This reads like classic early-session forcing and refusal to fully stand down after the first few failed attempts. The strongest positive is that you did recover composure enough to catch real moves later. The biggest issue is that the session likely asked for a reset much earlier than you gave it.",
+      "ruleAdherence": "Weak overall. The locked max-3-trades rule was broken heavily with 8 trades, and there was clear escalation through repeated attempts plus a 2-contract loss during the rough patch. Recovery execution was real, but process discipline was still below standard.",
+      "whatIDidGood": "1) Found real recovery trades after a bad start instead of total emotional collapse. 2) Captured two strong winners that proved you can still execute when aligned. 3) Pulled the session back from what could have been a much worse day.",
+      "whatToImprove": "1) Hard-stop the session much sooner after multiple failed reads. 2) Do not increase size in the middle of a losing sequence unless the setup quality is objectively higher and preplanned. 3) Respect the max-3-trades rule so the session cannot drift into constant re-engagement.",
+      "lessonLearned": "The day was not lost because there were no opportunities. It was lost because too much early damage had to be repaired. Recovery skill is useful, but it should not become a substitute for early-session discipline.",
+      "nextTradeRule": "After 2 failed reads in the same early session environment, pause and reset before taking another trade. No size increase during a losing streak. Max 3 trades means max 3 trades.",
+      "summary": "Mood: Emotionally pressured early, then noticeably steadier once the session stopped spiraling and a cleaner recovery sequence appeared.\nRecovery Metrics: Sleep N/A | Readiness N/A\nSetup Context: Only the CSV was provided, so chart structure is inferred from timing and trade flow. The day started with four straight losing longs, including a size-up loss, then shifted into a meaningful recovery burst with three green trades before ending with one more loser.\nExecution: Execution quality split into two phases. Phase one was poor: repeated long attempts failed quickly and trade count escalated while the read was not working. Phase two was much better: the 2-lot bounce winner and the two later winners showed that when timing improved, the session could recover materially. Still, the early damage and overall decision count kept the day red after commissions.\nPsychology: This reads like classic early-session forcing and refusal to fully stand down after the first few failed attempts. The strongest positive is that you did recover composure enough to catch real moves later. The biggest issue is that the session likely asked for a reset much earlier than you gave it.\nRule Adherence: Weak overall. The locked max-3-trades rule was broken heavily with 8 trades, and there was clear escalation through repeated attempts plus a 2-contract loss during the rough patch. Recovery execution was real, but process discipline was still below standard.\nWhat I Did Good: 1) Found real recovery trades after a bad start instead of total emotional collapse. 2) Captured two strong winners that proved you can still execute when aligned. 3) Pulled the session back from what could have been a much worse day.\nWhat To Improve: 1) Hard-stop the session much sooner after multiple failed reads. 2) Do not increase size in the middle of a losing sequence unless the setup quality is objectively higher and preplanned. 3) Respect the max-3-trades rule so the session cannot drift into constant re-engagement.\nLesson Learned: The day was not lost because there were no opportunities. It was lost because too much early damage had to be repaired. Recovery skill is useful, but it should not become a substitute for early-session discipline.\nNext Trade Rule: After 2 failed reads in the same early session environment, pause and reset before taking another trade. No size increase during a losing streak. Max 3 trades means max 3 trades.\nSession summary: Auto review created from Performance CSV and saved to MVP.",
+      "ouraSleepScore": null,
+      "ouraReadinessScore": null
     }
   ]
 }
