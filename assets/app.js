@@ -521,10 +521,11 @@ function renderEquityCurve(trades, selector = '#equity-curve') {
 function renderDailyHeatmap(trades, selector = '#daily-heatmap') {
   const host = document.querySelector(selector);
   if (!host) return;
+  const RESET_DATE = '2026-03-30';
   const byDay = {};
   for (const t of trades) {
     const d = t.date;
-    if (!d) continue;
+    if (!d || d < RESET_DATE) continue;
     byDay[d] ??= { pnl: 0, count: 0 };
     byDay[d].pnl += netPnl(t);
     byDay[d].count += 1;
