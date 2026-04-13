@@ -1,6 +1,6 @@
 {
   "source": "live-chat-manual-log",
-  "generatedAt": "2026-04-10T20:04:49.093431Z",
+  "generatedAt": "2026-04-13T20:05:24.997243Z",
   "trades": [
     {
       "id": "MAN-20260227-CC-01",
@@ -3466,6 +3466,22 @@
       "direction": "LONG",
       "buyFillId": "461767401374",
       "sellFillId": "461767401422",
+      "source": "telegram-csv-import"
+    },
+    {
+      "id": "461767401436-461767401465",
+      "date": "2026-04-13",
+      "symbol": "MNQM6",
+      "qty": 1,
+      "buyPrice": 25464.0,
+      "sellPrice": 25485.75,
+      "pnl": 43.5,
+      "boughtTimestamp": "2026-04-13T12:48:28",
+      "soldTimestamp": "2026-04-13T12:50:01",
+      "duration": "1min 33sec",
+      "direction": "LONG",
+      "buyFillId": "461767401436",
+      "sellFillId": "461767401465",
       "source": "telegram-csv-import"
     }
   ],
