@@ -1,6 +1,6 @@
 {
   "source": "live-chat-manual-log",
-  "generatedAt": "2026-04-17T20:01:08.939Z",
+  "generatedAt": "2026-04-20T21:29:52.242Z",
   "trades": [
     {
       "id": "MAN-20260227-CC-01",
@@ -3603,6 +3603,90 @@
       "boughtTimestamp": "2026-04-17 12:53:26",
       "soldTimestamp": "2026-04-17 12:55:52",
       "duration": "2min 25sec"
+    },
+    {
+      "id": "461767402166-461767402187",
+      "date": "2026-04-20",
+      "symbol": "MNQM6",
+      "qty": 1,
+      "buyPrice": 26757.75,
+      "sellPrice": 26728.75,
+      "pnl": -58,
+      "boughtTimestamp": "2026-04-20 06:41:50",
+      "soldTimestamp": "2026-04-20 06:48:53",
+      "duration": "7min 2sec"
+    },
+    {
+      "id": "461767402199-461767402227",
+      "date": "2026-04-20",
+      "symbol": "MNQM6",
+      "qty": 1,
+      "buyPrice": 26749,
+      "sellPrice": 26776.5,
+      "pnl": 55,
+      "boughtTimestamp": "2026-04-20 07:12:47",
+      "soldTimestamp": "2026-04-20 07:13:19",
+      "duration": "32sec"
+    },
+    {
+      "id": "461767402236-461767402264",
+      "date": "2026-04-20",
+      "symbol": "MNQM6",
+      "qty": 1,
+      "buyPrice": 26617.5,
+      "sellPrice": 26620,
+      "pnl": 5,
+      "boughtTimestamp": "2026-04-20 08:14:27",
+      "soldTimestamp": "2026-04-20 08:14:56",
+      "duration": "28sec"
+    },
+    {
+      "id": "461767402273-461767402301",
+      "date": "2026-04-20",
+      "symbol": "MNQM6",
+      "qty": 1,
+      "buyPrice": 26685.5,
+      "sellPrice": 26692.25,
+      "pnl": 13.5,
+      "boughtTimestamp": "2026-04-20 09:30:37",
+      "soldTimestamp": "2026-04-20 09:34:41",
+      "duration": "4min 3sec"
+    },
+    {
+      "id": "461767402310-461767402338",
+      "date": "2026-04-20",
+      "symbol": "MNQM6",
+      "qty": 1,
+      "buyPrice": 26690.25,
+      "sellPrice": 26690.5,
+      "pnl": 0.5,
+      "boughtTimestamp": "2026-04-20 10:35:22",
+      "soldTimestamp": "2026-04-20 10:36:00",
+      "duration": "38sec"
+    },
+    {
+      "id": "461767402347-461767402375",
+      "date": "2026-04-20",
+      "symbol": "MNQM6",
+      "qty": 1,
+      "buyPrice": 26711,
+      "sellPrice": 26713.5,
+      "pnl": 5,
+      "boughtTimestamp": "2026-04-20 11:00:26",
+      "soldTimestamp": "2026-04-20 11:12:48",
+      "duration": "12min 21sec"
+    },
+    {
+      "id": "461767402384-461767402412",
+      "date": "2026-04-20",
+      "symbol": "MNQM6",
+      "qty": 1,
+      "buyPrice": 26734.5,
+      "sellPrice": 26743.25,
+      "pnl": 17.5,
+      "boughtTimestamp": "2026-04-20 11:26:35",
+      "soldTimestamp": "2026-04-20 11:56:51",
+      "duration": "30min 16sec"
     }
   ],
   "journal": [
