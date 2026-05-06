@@ -133,6 +133,79 @@ def load_trades() -> list:
     return list(payload.get('trades') or [])
 
 
+def parse_trade_timestamp(value: str):
+    raw = str(value or '').strip()
+    if not raw:
+        return None
+    for fmt in ('%m/%d/%Y %H:%M:%S', '%Y-%m-%dT%H:%M:%S', '%Y-%m-%d %H:%M:%S'):
+        try:
+            return datetime.strptime(raw, fmt).replace(tzinfo=timezone.utc)
+        except ValueError:
+            continue
+    return None
+
+
+def trade_price(trade: dict, keys: tuple[str, ...]):
+    for key in keys:
+        value = trade.get(key)
+        if value in (None, ''):
+            continue
+        try:
+            return float(value)
+        except (TypeError, ValueError):
+            continue
+    return None
+
+
+def build_trade_fallback_snapshot(trade_date: str, chart_symbol: str, day_trades: list, reason: str) -> dict:
+    events = []
+    for trade in sorted(day_trades, key=lambda t: parse_trade_timestamp(t.get('entryTimestamp') or t.get('boughtTimestamp') or '') or datetime.max.replace(tzinfo=timezone.utc)):
+        entry_dt = parse_trade_timestamp(trade.get('entryTimestamp') or trade.get('boughtTimestamp') or '')
+        exit_dt = parse_trade_timestamp(trade.get('exitTimestamp') or trade.get('soldTimestamp') or '')
+        entry_price = trade_price(trade, ('entry', 'buyPrice'))
+        exit_price = trade_price(trade, ('exit', 'sellPrice'))
+        if entry_dt and entry_price is not None:
+            events.append((int(entry_dt.timestamp()), float(entry_price), f"{trade.get('id') or 'trade'}-entry"))
+        if exit_dt and exit_price is not None:
+            events.append((int(exit_dt.timestamp()), float(exit_price), f"{trade.get('id') or 'trade'}-exit"))
+
+    events.sort(key=lambda item: (item[0], item[2]))
+
+    bars = []
+    previous_close = None
+    for ts, price, _label in events:
+        open_price = price if previous_close is None else previous_close
+        close_price = price
+        high_price = max(open_price, close_price)
+        low_price = min(open_price, close_price)
+        bars.append({
+            'time': int(ts),
+            'open': float(open_price),
+            'high': float(high_price),
+            'low': float(low_price),
+            'close': float(close_price),
+            'volume': 0,
+        })
+        previous_close = close_price
+
+    return {
+        'date': trade_date,
+        'chartSymbol': chart_symbol,
+        'interval': 'trade-events',
+        'source': 'trade-fallback-synthetic',
+        'generatedAt': datetime.now(timezone.utc).isoformat(),
+        'meta': {
+            'fallback': True,
+            'fallbackReason': reason,
+            'note': 'Synthetic trade-event chart generated from local fills because remote candle fetch failed.'
+        },
+        'bars': bars,
+        'tradeCount': len(day_trades),
+        'tradeIds': [t.get('id') for t in day_trades if t.get('id')],
+        'symbols': sorted({str(t.get('symbol') or '').upper() for t in day_trades if t.get('symbol')}),
+    }
+
+
 def main() -> int:
     trades = load_trades()
     requested_dates = set(sys.argv[1:])
@@ -198,6 +271,12 @@ def main() -> int:
             snapshot = fetch_range_snapshot(chart_symbol, dates[0], dates[-1])
         except Exception as exc:
             print(f'warning: failed to fetch chart data for {chart_symbol} ({dates[0]}..{dates[-1]}): {exc}', file=sys.stderr)
+            for trade_date in dates:
+                day_trades = by_date[trade_date]
+                fallback_snapshot = build_trade_fallback_snapshot(trade_date, chart_symbol, day_trades, str(exc))
+                out_path = snapshot_path(trade_date, chart_symbol)
+                out_path.write_text(json.dumps(fallback_snapshot, indent=2) + '\n')
+                print(f'Wrote fallback {out_path.relative_to(ROOT)} ({len(fallback_snapshot["bars"])} synthetic bars)')
             continue
 
         bars = snapshot['bars']

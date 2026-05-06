@@ -484,6 +484,51 @@ function applySeriesMarkers(series, markers) {
   }
 }
 
+function buildTradeFallbackSnapshot(date, chartSymbol, trades = [], reason = '') {
+  const events = [];
+  trades.forEach((trade, idx) => {
+    const entryAt = getTradeEntryDate(trade);
+    const exitAt = getTradeExitDate(trade);
+    const entryPrice = Number(getTradeEntryPrice(trade));
+    const exitPrice = Number(getTradeExitPrice(trade));
+    if (entryAt && Number.isFinite(entryPrice)) {
+      events.push({ time: Math.floor(entryAt.getTime() / 1000), price: entryPrice, key: `${idx}-entry` });
+    }
+    if (exitAt && Number.isFinite(exitPrice)) {
+      events.push({ time: Math.floor(exitAt.getTime() / 1000), price: exitPrice, key: `${idx}-exit` });
+    }
+  });
+  events.sort((a, b) => a.time - b.time || a.key.localeCompare(b.key));
+
+  let previousClose = null;
+  const bars = events.map(event => {
+    const open = previousClose == null ? event.price : previousClose;
+    const close = event.price;
+    previousClose = close;
+    return {
+      time: event.time,
+      open,
+      high: Math.max(open, close),
+      low: Math.min(open, close),
+      close,
+      volume: 0
+    };
+  });
+
+  return {
+    date,
+    chartSymbol,
+    interval: 'trade-events',
+    source: 'trade-fallback-synthetic',
+    bars,
+    meta: {
+      fallback: true,
+      fallbackReason: reason || 'Remote candle snapshot missing.',
+      note: 'Synthetic trade-event fallback generated from local fills.'
+    }
+  };
+}
+
 function renderTradeLegend(trades = []) {
   return trades.map((trade, idx) => {
     const entryAt = getTradeEntryDate(trade);
@@ -520,14 +565,22 @@ async function renderJournalChart(container) {
   }
 
   try {
-    const snapshot = await loadChartSnapshot(date, chartSymbol);
+    let snapshot;
+    try {
+      snapshot = await loadChartSnapshot(date, chartSymbol);
+    } catch (err) {
+      snapshot = buildTradeFallbackSnapshot(date, chartSymbol, trades, err?.message || 'Snapshot fetch failed');
+    }
     const bars = Array.isArray(snapshot?.bars) ? snapshot.bars : [];
     if (!bars.length) {
       container.innerHTML = '<div class="muted small">No candles available for this session yet.</div>';
       return;
     }
 
-    container.innerHTML = '<div class="journal-chart-canvas"></div>';
+    const fallbackNote = snapshot?.meta?.fallback
+      ? `<div class="muted small" style="margin-bottom:8px;">Using local fallback chart from trade events${snapshot?.meta?.fallbackReason ? ` — ${snapshot.meta.fallbackReason}` : ''}.</div>`
+      : '';
+    container.innerHTML = `${fallbackNote}<div class="journal-chart-canvas"></div>`;
     const palette = getChartPalette();
     const canvas = container.querySelector('.journal-chart-canvas');
     const width = Math.max(280, container.clientWidth || 280);
@@ -587,7 +640,7 @@ async function renderJournalChart(container) {
     }
   } catch (err) {
     console.error('journal chart render failed', date, chartSymbol, err);
-    container.innerHTML = '<div class="muted small">Chart snapshot missing. Run the chart snapshot generator for this date.</div>';
+    container.innerHTML = '<div class="muted small">Chart unavailable for this session.</div>';
   }
 }
 
