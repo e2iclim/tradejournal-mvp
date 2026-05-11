@@ -1,6 +1,6 @@
 {
   "source": "canonical",
-  "generatedAt": "2026-05-04T21:01:15.839Z",
+  "generatedAt": "2026-05-11T20:35:36.654Z",
   "entries": [
     {
       "date": "2026-02-18",
@@ -736,6 +736,21 @@
       "whatToImprove": "Reduce total trade count. Predefine management at 1R to 1.2R, especially near ATH or other obvious reaction zones. If the setup quality is good enough to want more upside, scale partials and leave a runner instead of forcing an all-or-nothing decision in the moment. Size trades so I can tolerate normal noise without pain making the decision for me.",
       "lessonLearned": "A good exit can still feel terrible afterward. The next candle does not grade the prior decision. If I have real stall evidence at ATH, taking profit is valid. If I want the chance to catch the second leg too, the answer is not regret — it is a preplanned partial-plus-runner structure.",
       "nextTradeRule": "At ATH or extended areas, if I take 1R to 1.2R into doji/red-candle hesitation, either (1) scale most and leave a runner, or (2) commit beforehand that a full take-profit is acceptable and do not judge it by the next candle. Also: fewer trades. No drift into high-frequency management mode."
+    },
+    {
+      "date": "2026-05-11",
+      "title": "Trading Journal — Monday, May 11, 2026",
+      "mood": "Rough, urgent start; much better once the pace slowed and the session stopped being decided by the first few minutes.",
+      "content": "Session summary: 12 MNQ trades logged. Gross PnL was -28.00 and net after $1/trade commissions was about -40.00. Win/Loss/BE = 7/5/0 (Winrate 58.3%). Best trade: CSV-20260511-496186101654 (MNQM6) 136.50. Worst trade: CSV-20260511-496186101321 (MNQM6) -54.50.",
+      "setupContext": "The session broke into two very different phases. The open sequence was hyper-fast and aggressive, with four straight losing shorts between 7:24 and 7:31 AM. After that, trade pace slowed down and results improved materially. The fills suggest the market became more tradable once the initial urgency passed and entries were no longer being forced into the first burst of movement.",
+      "execution": "Biggest execution leak was clustering four losses in the first seven minutes of action, then needing a fifth trade just to stabilize the opening damage. Once pace slowed, execution improved: there was a string of five straight winners, then a later loss around 10:03, followed by the best trade of the day at +136.50 held for 23+ minutes. That contrast matters. The day was not lost because edge disappeared; it was damaged early by rapid-fire execution and then partially repaired when patience improved.",
+      "psychology": "Based on fills alone, the emotional signature looks like early urgency rather than all-day loss of control. The first cluster looks like trying to press the open instead of letting the first move prove itself. Later trading looks calmer and more selective, which is important because it shows the real problem was the opening tempo, not the entire read for the day.",
+      "ruleAdherence": "Poor early, better later. Twelve trades is still far above the locked ideal of 3 trades/day, and four consecutive losses in seven minutes is a direct sign that the reset rule did not control the opening sequence. The positive is that the session eventually stabilized and the later winner shows better adherence once the pace slowed.",
+      "whatIDidGood": "Recovered from a brutal start without completely spiraling. Slowed down enough to put together five straight winners and later caught the best move of the session with much better hold quality. That shows there was still usable read quality once speed stopped controlling the decisions.",
+      "whatToImprove": "The open needs a harder speed limit. After the first loss or two, the proof requirement should go up immediately instead of firing multiple near-back-to-back attempts. Also reduce total trade count and avoid letting the first 10 minutes define the entire day.",
+      "lessonLearned": "The main damage came from pace, not from lack of edge. When the first minutes get frantic, more clicks do not solve it. Slowing down did. The best trade of the day came later, after the opening urgency had already proven it was expensive.",
+      "nextTradeRule": "If the first 2 trades lose or if 2 losses happen inside the first 10 minutes, stop for 15 minutes. No immediate third or fourth attempt at the open. Let the first move prove itself before trying to press size, direction, or frequency.",
+      "summary": "Red day overall, but the key read is clean: the opening burst did the damage, while slower trading later actually worked. The fix is not to trade harder early — it is to force a reset when the open gets fast and emotional."
     }
   ]
 }
